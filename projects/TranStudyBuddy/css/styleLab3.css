@@ -1,0 +1,186 @@
+#title {
+    background-color: #dde6d5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family:'Copperplate', fantasy;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2 {
+    color: #667b68;
+    font-family: 'Copperplate', fantasy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-family: 'Copperplate', fantasy;
+    font-weight: bold;
+    color: #667b68;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+#title {
+    z-index: 1;
+    position: relative;
+}
+
+.title-image {
+    width: 100%;
+    transform: rotate(20deg);
+    z-index: 2;
+    position: absolute;
+}
+
+.title-image-container {
+    width: 100%;
+    position: relative;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    z-index: 3;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #a3b899;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:#F3B097;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #dde6d5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #fff4f0;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: #F3B097;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #fceee9;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Copperplate', fantasy;
+    font-weight: bold;
+    color: #F3B097;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+        z-index: 1;
+        position: relative;
+    }
+    .title-image {
+        width: 60%;
+        transform: rotate(20deg);
+        z-index: 2;
+        position: absolute;
+    }
+}

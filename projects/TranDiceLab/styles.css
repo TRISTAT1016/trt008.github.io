@@ -1,0 +1,60 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #CCDBF8;
+  font-family: 'Impact', fantasy;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #FFFF;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7191D0;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Bradley Hand', cursive;
+  color: #8EA7D3;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8EA7D3;
+  font-family: 'Bradley Hand', cursive;
+}
+
+img {
+  width: 80%;
+  background-color: #7191D0;
+  border-radius: 25%;
+}
+
+
+.myBtn {
+  margin: 30px;
+  font-size: 1rem;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+footer {
+  margin-top: 5%;
+  color: #9D9FA1;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Gill Sans', sans-serif;
+}
