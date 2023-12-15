@@ -1,0 +1,108 @@
+/* Navbar */
+.container-fluid {
+    background-color: #FFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title h1 {
+    padding-top: 50px;
+    color: #A99282;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#title p {
+    padding-top: 10px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* Bio */
+.row {
+    background-color: #f2e7df;
+    padding: 0% 5%;
+}
+
+.title-image {
+    width: 10;
+}
+
+/* Work Experience */
+.work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left:30px;
+}
+.text-center {
+    font-family: 'Montserrat', sans-serif;
+    color: #f2e7df;
+}
+.row {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ /* Carousel image sizes */
+ #hobbyCarousel .carousel-item img {
+    width: 100%; /* responsive width */
+    height: 500px; /* keep the height fixed height */
+    object-fit: cover; /* don't want the image to be distorted */
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* Projects */
+.box {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #f2e7df; /* Set a background color for the box */
+    padding: 20px; /* Add some padding for spacing */
+    font-size: 2rem;
+}
+
+.works {
+    background-color: #f2e7df;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works a {
+    width: 45%; /* Adjust the width as needed */
+    margin: 2.5%; /* Adjust the margin to create space between elements */
+    padding: 10px; /* Adjust padding for a smaller box */
+    border: 2px solid #f2e7df;
+    background-color: white;
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set the text color */
+}
+
+.works a h2,
+.works a h3,
+.works a h4 {
+    margin-bottom: 10px; /* Add some space below the headings */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.works a img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; /* Add rounded corners for a nicer look */
+}
+
+@media (max-width: 768px) {
+    .works a {
+        width: 100%; /* Change the width to 100% for smaller screens */
+    }
+}
